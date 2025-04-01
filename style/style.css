@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'Myriad pro Bold';
+    src: url(../font/MYRIADPRO-BOLD.OTF);
+    
+}
+
+@font-face{
+    font-family: 'Myriad pro Regular';
+    src: url(../font/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face{
+    font-family: 'Myriad pro light';
+    src: url(../font/MyriadPro-Light.otf);
+}
+
+
+
+body{
+    background-image: url(../img/fondo.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  
+    height: 100vh;  
+    margin: 0;
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40vh;
+}
+.loguito{
+    width: 197px;
+    height: 176px;
+    animation: logo 1.5s linear forwards;
+}
+@keyframes logo{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.Rectangulo_Bienvenido{
+    position: relative;
+    background-color: white;   
+    left: 50vh;
+    width: 936px;
+    height: 761px;
+    border-radius: 5%;
+    animation: cuadro_blanco 2.5s linear forwards;
+}
+.logo2{
+    position: relative;
+    left: 40vh;
+    top: 1vh;
+}
+.texto1{
+    position: relative;
+    left: 11vw;
+    margin: 10px;
+    font-size: 40px;
+    width: 510px;
+    height: 96px;
+    display: flex;
+    text-align: center;
+}
+.texto2{
+    position: relative;
+    left: 11vw;
+    font-size: 20px;
+
+}
+@keyframes cuadro_blanco{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
