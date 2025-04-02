@@ -57,3 +57,14 @@
     background-color: #000; 
     margin: 20px 0; 
 }
+.panel{
+  position: relative;
+  font-size: 40px;
+  left: 41vw;
+}
+.desc_panel{
+  position: relative;
+  font-size: 24px;
+  left: 28vw;
+  top: 5vh;
+}
