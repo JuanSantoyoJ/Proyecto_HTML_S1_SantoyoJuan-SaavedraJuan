@@ -1,62 +1,76 @@
-@font-face{
+@font-face {
     font-family: 'Myriad pro Bold';
     src: url(../font/MYRIADPRO-BOLD.OTF);
-    
+
 }
 
-@font-face{
+@font-face {
     font-family: 'Myriad pro Regular';
     src: url(../font/MYRIADPRO-REGULAR.OTF);
 }
 
-@font-face{
+@font-face {
     font-family: 'Myriad pro light';
     src: url(../font/MyriadPro-Light.otf);
 }
 
 
 
-body{
+body {
     background-image: url(../img/fondo.png);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;  
-    height: 100vh;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     margin: 0;
     background-color: black;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 40vh;
 }
-.loguito{
+
+.loguito {
     width: 197px;
     height: 176px;
-    animation: logo 1.5s linear forwards;
+    animation: logo 1s linear forwards;
 }
-@keyframes logo{
-    0% {opacity: 0;}
-    50% {opacity: 1;}
-    100% {opacity: 0;}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
-.Rectangulo_Bienvenido{
+
+.Rectangulo_Bienvenido {
     position: relative;
-    background-color: white;   
+    background-color: white;
     left: 50vh;
     width: 936px;
     height: 761px;
-    border-radius: 5%;
-    animation: cuadro_blanco 2.5s linear forwards;
+    border-radius: 8%;
+    animation: cuadro_blanco 3s linear forwards;
 }
-.logo2{
+
+.logo2 {
     position: relative;
     left: 40vh;
     top: 1vh;
 }
-.texto1{
+
+.texto1 {
     position: relative;
     left: 11vw;
     margin: 10px;
@@ -66,13 +80,77 @@ body{
     display: flex;
     text-align: center;
 }
-.texto2{
+
+.texto2 {
     position: relative;
     left: 11vw;
     font-size: 20px;
 
 }
-@keyframes cuadro_blanco{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+.texto3{
+    position: relative;
+    font-size: 25px;
+    left: 8vw;
+    top: 2vw;
+}
+.texto4{
+    position: relative;
+    font-size: 25px;
+    left: 8vw;
+    top: 6vw;
+}
+@keyframes cuadro_blanco {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.Usuario{
+    position: relative;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+    width: 650px;
+    height: 50px;
+    left: 8vw;
+    top: 3vw;
+}
+.Contraseña{
+    position: relative;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+    width: 650px;
+    height: 50px;
+    left: 8vw;
+    top: 7vw;
+}
+.Cuadro_Naranja {
+    position: relative;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    width: 336px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 16vw;
+    top: 9vw;
+    font-size: 25px;
+}
+.texto5{
+    position: relative;
+    left: 10vw;
+    top: 9vw;
+    font-size: 15px;
 }
