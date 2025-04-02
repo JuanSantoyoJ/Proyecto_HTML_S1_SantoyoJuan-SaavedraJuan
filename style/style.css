@@ -154,3 +154,7 @@ body {
     top: 9vw;
     font-size: 15px;
 }
+.boton_panel{
+    text-decoration: none;
+    color: white;
+}

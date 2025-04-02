@@ -1,0 +1,59 @@
+.encabezado {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) 3fr;
+    grid-template-areas: "item1 item2 item3 item4 item5 item6 right right right";
+    grid-gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding: 20px;
+    right: 1vw;
+    position: relative;
+    font-size: 30px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 15vw;
+    position: relative;
+  }
+  
+  .icono {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  #icono{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    bottom  : 1vw;
+  }
+  
+  .texto {
+    margin-top: 0;
+  }
+  #configuracion{
+    position: relative;
+    left: 12vw;
+  }
+  #camapana{
+    position: relative;
+    right: 12vw;
+  }
+  #pedrito{
+    position: relative;
+    bottom: 1vw;
+    right: 11vw;
+  }
+.linea{
+    width: 100vw;
+    height: 1px; 
+    background-color: #000; 
+    margin: 20px 0; 
+}

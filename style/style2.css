@@ -1,0 +1,107 @@
+body {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40vh;
+}
+
+.loguito {
+    width: 197px;
+    height: 176px;
+    animation: logo 1s linear forwards;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.Rectangulo_Bienvenido {
+    position: relative;
+    background-color: white;
+    left: 47vh;
+    top: 10vh;
+    width: 936px;
+    height: 549px;
+    border-radius: 8%;
+    animation: cuadro_blanco 4s linear forwards;
+}
+
+.logo2 {
+    position: relative;
+    left: 39vh;
+    top: 4vh;
+}
+
+@keyframes cuadro_blanco {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 22vw;
+    top: 7vw;
+}
+.pedrito{
+    width: 100px;
+    height: 100px;
+}
+.textoA {
+    position: relative;
+    font-size: 40px;
+    left: 16vw;
+    bottom: 2vw;
+}
+
+.textoB {
+    position: relative;
+    font-size: 40px;
+    left: 13vw;
+    top: 6vw;
+}
+
+.textoC {
+    position: relative;
+    left: 20vw;
+    top: 7vw;
+    font-size: 20px;
+
+}
