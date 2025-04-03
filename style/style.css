@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Myriad pro Bold';
     src: url(../font/MYRIADPRO-BOLD.OTF);
-
 }
 
 @font-face {
@@ -14,29 +13,30 @@
     src: url(../font/MyriadPro-Light.otf);
 }
 
-
-
 body {
     background-image: url(../img/fondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 40vh;
+    margin-top: 5vh;
 }
 
 .loguito {
-    width: 197px;
-    height: 176px;
+    width: 150px;
+    height: auto;
     animation: logo 1s linear forwards;
 }
 
@@ -55,55 +55,19 @@ body {
 }
 
 .Rectangulo_Bienvenido {
-    position: relative;
     background-color: white;
-    left: 50vh;
-    width: 936px;
-    height: 761px;
-    border-radius: 8%;
+    width: 80%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
     animation: cuadro_blanco 3s linear forwards;
 }
 
-.logo2 {
-    position: relative;
-    left: 40vh;
-    top: 1vh;
-}
-
-.texto1 {
-    position: relative;
-    left: 11vw;
-    margin: 10px;
-    font-size: 40px;
-    width: 510px;
-    height: 96px;
-    display: flex;
-    text-align: center;
-}
-
-.texto2 {
-    position: relative;
-    left: 11vw;
-    font-size: 20px;
-
-}
-.texto3{
-    position: relative;
-    font-size: 25px;
-    left: 8vw;
-    top: 2vw;
-}
-.texto4{
-    position: relative;
-    font-size: 25px;
-    left: 8vw;
-    top: 6vw;
-}
 @keyframes cuadro_blanco {
-    0% {
-        opacity: 0;
-    }
 
+    0%,
     50% {
         opacity: 0;
     }
@@ -112,49 +76,129 @@ body {
         opacity: 1;
     }
 }
-.Usuario{
-    position: relative;
+
+.logo2 {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.texto1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+.texto2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.texto3,
+.texto4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.Usuario,
+.Contraseña {
     border: 1px solid #707070;
     border-radius: 20px;
-    opacity: 1;
-    width: 650px;
-    height: 50px;
-    left: 8vw;
-    top: 3vw;
+    width: 80%;
+    max-width: 500px;
+    height: 45px;
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
 }
-.Contraseña{
-    position: relative;
-    border: 1px solid #707070;
-    border-radius: 20px;
-    opacity: 1;
-    width: 650px;
-    height: 50px;
-    left: 8vw;
-    top: 7vw;
-}
+
 .Cuadro_Naranja {
-    position: relative;
     border-radius: 50px;
     background-color: orangered;
     color: white;
-    width: 336px;
-    height: 70px;
+    width: 70%;
+    max-width: 300px;
+    height: 50px;
     text-align: center;
-    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 16vw;
-    top: 9vw;
-    font-size: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1.5rem auto;
+    cursor: pointer;
+    transition: background 0.3s;
 }
-.texto5{
-    position: relative;
-    left: 10vw;
-    top: 9vw;
-    font-size: 15px;
+
+.Cuadro_Naranja:hover {
+    background-color: darkorange;
 }
-.boton_panel{
+
+.texto5 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.boton_panel {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .Rectangulo_Bienvenido {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .texto1 {
+        font-size: 1.5rem;
+    }
+
+    .Usuario,
+    .Contraseña {
+        width: 90%;
+    }
+
+    .Cuadro_Naranja {
+        width: 80%;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        margin-top: 2vh;
+    }
+
+    .loguito {
+        width: 120px;
+    }
+
+    .texto1 {
+        font-size: 1.3rem;
+    }
+
+    .texto2 {
+        font-size: 0.9rem;
+    }
+
+    .Usuario,
+    .Contraseña {
+        width: 100%;
+        height: 40px;
+    }
+
+    .Cuadro_Naranja {
+        width: 100%;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .texto5 {
+        font-size: 0.8rem;
+    }
 }
