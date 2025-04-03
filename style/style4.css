@@ -1,0 +1,117 @@
+.contenedor_añadir {
+    margin-bottom: 1vw;
+    padding-top: 13vh;
+    margin-left: 3vw;
+    width: 90%;
+    font-size: 1.4vw;
+    font-family: "grande";
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 4vw;
+  }
+
+  .contenido1 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido2 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido3 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido4 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido5 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido5 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido6 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
+  .contenido7 {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    position: relative;
+    top: 5vw;
+  }
