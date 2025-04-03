@@ -1,0 +1,200 @@
+.texto {
+    text-decoration: none;
+    color: #000
+}
+
+.texto2 {
+    text-decoration: none;
+    color: white
+}
+
+
+.encabezado {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    gap: 5px;
+}
+
+.añadir {
+    position: relative;
+    left: 4vw;
+}
+
+.Icono_refrescar {
+    position: relative;
+    left: 4vw;
+}
+
+.icono_eliminar {
+    position: relative;
+    left: 4vw;
+}
+
+.Icono_reportar {
+    position: relative;
+    left: 4vw;
+}
+
+.Icono_ayuda {
+    position: relative;
+    left: 4vw;
+}
+
+.Icono_settings {
+    position: relative;
+    left: 3vw;
+}
+
+.pedro {
+    position: relative;
+    right: 3vw;
+}
+
+.linea {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+    position: relative;
+    top: 6vw;
+}
+
+.panel {
+    font-size: 4rem;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    top: 7vw;
+}
+
+.desc_panel {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 7vw;
+}
+
+.contenedor_indicadores {
+    margin-bottom: 1vw;
+    padding-top: 13vh;
+    margin-left: 3vw;
+    width: 90%;
+    font-size: 1.4vw;
+    font-family: "grande";
+    display: grid;
+    animation: extra 13s forwards;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    position: relative;
+    top: 4vw;
+}
+
+.contenido {
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #817f7f;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    margin-left: 2.5vw;
+    width: 90%;
+    display: grid;
+    animation: extra 13s forwards;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    position: relative;
+    top: 5vw;
+}
+
+.TXT {
+    padding: 5px;
+    font-size: 1vw;
+    font-family: "pequeño";
+    display: flex;
+    align-items: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 300px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 6vw;
+}
+
+@media (max-width: 768px) {
+    .encabezado {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+        font-size: 1.2rem;
+    }
+
+    .panel {
+        font-size: 1.5rem;
+    }
+
+    .desc_panel {
+        font-size: 1rem;
+    }
+
+    .contenedor_indicadores {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 1rem;
+    }
+
+    .panel {
+        font-size: 1.2rem;
+    }
+
+    .desc_panel {
+        font-size: 0.8rem;
+    }
+
+    .contenedor_indicadores {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+.basura1{
+    position: relative;
+    left: 95vw;
+}
